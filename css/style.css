@@ -1,0 +1,465 @@
+body {
+	font: 14px/1.5 'Raleway', "Arial", sans-serif;
+	/*color: #555;*/
+	min-width: 1060px;
+	font-weight: 400;
+	background: #f3f3f3;
+}
+.main-header {
+	background: url('../img/buildings.png') no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.ba-container{
+	width: 1070px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu_img{
+	padding-top: 65px;
+	display: block;
+	float: right;
+	clear: both;
+/*	right: 0;*/
+}
+.main-photo {
+	margin-top: 135px;
+	margin-bottom: 50px;
+}
+header h2 {
+	font-size: 44px;
+	line-height: 44px;
+	color:#f3f3f3;
+	padding-bottom: 25px;
+}
+header p {
+	font-size: 24px;
+	color: rgb( 31, 152, 173 );
+	line-height: 24px;
+	padding-bottom: 35px;
+}
+.ba-button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	display: inline-block;
+	padding: 0 15px;
+	line-height: 51px;
+	border:2px solid;
+	border-radius: 10px;
+	color: rgb( 190, 190, 190 );
+	background-color: rgba( 255, 255, 255, 0.051 );
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 24px;
+	margin: 0 12px;
+}
+.ba-button-header {
+	width: 164px;
+	height: 51px;
+}
+header a.ba-button-header:hover {
+	border-color: rgb( 31, 152, 173 );
+	color:  rgb( 31, 152, 173 ) ;
+	-moz-transition: border-color 0.5s,  color 0.5s;
+	-webkit-transition: border-color 0.5s, color 0.5s;
+	transition: border-color 0.5s,color 0.5s;
+}
+.pb-105 {
+	padding-bottom: 105px;
+}
+/*-------------------------------------About me------------------------*/
+.title-main {
+	padding-top: 81px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 40px;
+	color: #595959;
+	font-weight: 900;
+}
+
+h2.title-main:after {
+	display: block;
+	content: "";
+	width: 115px;
+	height: 8px;
+	background-color: #88ccd8;
+	margin: 15px auto;
+}
+/*-------ba-grid for about me--------*/
+.Bruno_Mars {
+	font-size: 24px;
+	color: rgb( 89, 89, 89 );
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 40px;
+	text-align: left;
+}
+.Bruno_Mars_normal {
+	font-weight: 700;
+}
+.about-me p {
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 30px;
+	color:#7c7c7c;
+}
+.about-me {
+	padding-bottom: 120px;
+}
+.img_about {
+	position: relative;
+}
+.img_about img {
+	display: block;
+	width: 100%;
+}
+.img_about .fa {
+	display: block;
+	position: absolute;
+	top: 46%;
+	bottom: 46%;
+	right: 0;
+	left: 0;
+	margin:auto;
+}
+.about-me .fa {
+
+	font-size: 130px;
+	color: rgba( 255, 255, 255, 0.4 );
+	line-height: 0.231;
+}
+.ba-grid.ba-grid-ml-41 {
+	margin-left: -41px;
+}
+.ba-grid.ba-grid-ml-41 > [class*="ba-width"] {
+	padding-left: 41px;
+}
+/*---------------------------------My services-------------------------*/
+.services {
+	padding-bottom: 125px;
+	background: url('../img/my_services.png') no-repeat top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.services h2.title-main {
+	color: #f3f3f3;
+	padding-bottom: 45px;
+}
+.fa {
+	color: rgba( 243, 243, 243, 0.702 );
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+.type_service {
+	display: block;
+	font-size: 22px;
+	color: rgba( 243, 243, 243, 0.702 );
+	text-transform: uppercase;
+	line-height: 0.528;   /*  24px  */
+	letter-spacing: 1px;
+	font-weight: 700;
+	text-align: center;
+	padding: 5px 0;
+
+}
+p.type_service {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+.ba-grid.bg-mleft-100 {
+	margin-left: -90px;
+
+}
+.ba-grid.bg-mleft-100 > [class*="ba-width"] {
+	float: left;
+	padding-left: 90px;   /*-----ustanovit zna4enie px-----*/
+}
+.bg-pt-100{
+	padding-top: 100px;
+}
+/*---------------------------------Portfolio---------------------------*/
+.portfolio h2.title-main {
+	padding-bottom: 25px;
+}
+.ba-pos-rel {
+	position: relative;
+}
+.portfolio img {
+	display: block;
+	width: 100%;
+}
+.portfolio .ba-grid.ba-no-mt {
+	margin-top: 0;
+}
+.portfolio .portf_hidden {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(10, 13, 20, 0.85);
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	padding-top: 100px;
+}
+.portfolio div.ba-pos-rel:hover .portf_hidden{
+	visibility: visible;
+	transition: 0.5s;
+}
+.portf_hidden:before {
+	content: "+";
+	color: white;
+	font-size: 66px;
+	font-weight: 200;
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	border-radius: 50%;
+	background: #383838;
+	top: 35px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: .7;
+}
+.portf_hidden h4 {
+	margin-bottom: 5px;
+	font-size: 24px;
+	color: rgb( 207, 207, 207 );
+}
+.portf_hidden p {
+	font-size: 16px;
+	color: rgb( 207, 207, 207 );
+}
+/*-----------------------------------My blog---------------------------*/
+.my_blog {
+	padding-bottom: 80px;
+}
+.ba-grid.ba-blog {
+	margin-left: -65px;
+
+}
+.ba-grid.ba-blog > [class*="ba-width"] {
+	float: left;
+	padding-left: 65px;   /*-----ustanovit zna4enie px-----*/
+}
+.blog-content {
+	position: relative;
+	padding: 16px;
+	background: #fff;
+	box-shadow: 0 0 5px  rgba(0,0,0,0.1);
+
+}
+.blog-content a img {
+	width: 100%;
+	display: block;
+}
+.blog-text {
+	position: relative;
+	display: inline-block;
+	padding: 25px 25px 20px 25px;
+	text-align: left;
+	text-transform: uppercase;
+	box-sizing: content-box;
+}
+.blog-text h3 {
+	font-size: 18px;
+	color: rgb( 89, 89, 89 );
+	font-weight: 900;
+}
+.blog-text h6 {
+	font-size: 14px;
+}
+.blog-text p {
+	display: inline-block;
+	font-size: 16px;
+	padding-top: 14px;
+
+}
+.ba-button-blue {
+	background-color: rgb( 100, 201, 219 );
+	font-size: 18px;
+	border:2px solid rgb( 100, 201, 219 ) ;
+	color: #fff;
+	line-height: 42px;
+	border-radius: 0;
+	text-transform: uppercase;
+
+}
+.blog-content a.ba-button-blue {
+	position: relative;
+	display:inline-block;
+	padding: 0 8px;
+	margin: 0 0 14px  0;
+	right: 14px;
+	text-align: center;
+}
+.blog-content a.ba-button-blue:hover {
+	background-color: #fff;
+	font-size: 18px;
+	border:2px solid rgb( 100, 201, 219 );
+	color:  rgb( 100, 201, 219 ) ;
+	-moz-transition: color 0.5s, background-color 0.5s;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: color 0.5s, background-color 0.5s;
+}
+.ba-grid+.ba-grid {
+	margin-top: 60px;
+}
+.my_blog h4{
+	display: inline-block;
+	font-size: 24px;
+	color: rgb( 89, 89, 89 );
+	padding-top: 80px;
+}
+.my_blog a.footer_link{
+	color: #64c9db;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+}
+/*-----------------------------------My proj---------------------------*/
+.my_proj {
+	padding:110px 0 140px 0;
+	background: url('../img/apple-bag.png') no-repeat top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.proj-content{
+	position: relative;
+	display: inline-block;
+}
+.ellipse {
+	border: 7px solid rgb( 255, 243, 254 );
+	border-radius: 50%;
+}
+.ellipse_main {
+	width: 270px;
+	height: 270px;
+	margin: auto;
+}
+.ell_small {
+	background: rgb( 255, 243, 254 );
+	position: absolute;
+	width: 76px;
+	height: 76px;
+	text-align: center;
+	line-height: 76px;
+	border-radius: 50%;
+	font-size: 30px;
+}
+.ell_top {
+	top: -38px;
+	right: 0;
+	left: 0;
+	margin:auto;
+}
+.ell_left {
+	left: -19px;
+	bottom: 19px;
+}
+.ell_rigth {
+	right: -19px;
+	bottom: 19px;
+}
+.proj-content i.fa {
+	font-size: 30px;
+	color: rgb( 86, 100, 115 );
+}
+.content-text {
+	display: inline-block;
+	position: absolute;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+.cont_txt_left {
+	left: -110px;
+	bottom: -40px;
+}
+.cont_txt_right {
+	right: -170px;
+	bottom: -40px;
+}
+.cont_txt_top {
+	display: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	margin: auto;
+	padding-bottom: 60px;
+}
+.my_contact {
+	padding: 50px 0;
+}
+.contact-content {
+	height: 56px;
+}
+.contact-content p {
+	display: inline-block;
+	font-size: 24px;
+	line-height: 56px;
+}
+.contact-content a {
+	line-height: 56px;
+}
+.ba-button-contact {
+	border-radius: 10px;
+	background-color: rgb( 93, 190, 210 );
+	color: #fff;
+	border:2px solid rgb( 93, 190, 210 );
+	height: 56px;
+
+}
+a.ba-button-contact:hover {
+	background-color: #f3f3f3;
+	/*font-size: 18px;*/
+	border:2px solid rgb( 93, 190, 210 );
+	color:  rgb( 93, 190, 210 ) ;
+	-moz-transition: color 0.5s, background-color 0.5s;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: color 0.5s, background-color 0.5s;
+}
+/*------------------------------------Footer---------------------------*/
+footer hr {
+	color: #595959;
+}
+footer p {
+	display: inline-block;
+	float: left;
+}
+.footer-contacts{
+	padding-top: 10px;
+}
+footer ul {
+	display: inline-block;
+	float: right;
+}
+footer ul li{
+	display: inline-block;
+	float: left;
+}
+footer a i.fa {
+	font-size: 22px;
+	padding-right: 7px;
+	color: #5e6c7b;
+}
+footer a i.fa:hover{
+	color: rgb( 93, 190, 210 );
+	-moz-transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+
+
+
+
